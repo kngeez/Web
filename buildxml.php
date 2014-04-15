@@ -30,12 +30,16 @@ echo "1 record added";
 $xml=simplexml_load_file("moviedata.xml");
 echo $xml->getName() . "<br>";
 foreach($xml->children() as $child) {
-  echo $child->getName();
-  echo "<br>";
-  echo $child->count();
-  echo "<br>";
-
-  
+  if ($child->getName() == "add") {
+    echo $child->getName() . ": " . $child->attributes() . ": " . $child;
+    echo "<br>";
+  }
+  if ($child->count() > 0) {
+    foreach($child->children() as $child2) {
+      echo $child2->getName() . ": " . $child2->attributes() . ": " . $child2;
+      echo "<br>";
+    }
+  }
 }
 
 

@@ -18,12 +18,15 @@ if (mysqli_connect_errno()) {
 
 // adds a movie to movies table
 /*
-$sql = "INSERT INTO movies VALUES ('tt0484562', 'The Seeker: The Dark Is Rising', 'Cunningham, David L.')";
+$a = "tt0484562";
+$b = "The Seeker: The Dark Is Rising";
+$c = "Cunningham, David L.";
+$sql = "INSERT INTO movies VALUES ('$a', '$b', '$c')";
 
 if (!mysqli_query($link,$sql)) {
-  die('Error: ' . mysqli_error($con));
+  die('Error: ' . mysqli_error($link));
 }
-echo "1 record added";
+echo "1 record added<br>";
 */
 
 
@@ -51,12 +54,11 @@ foreach($xml->children() as $child) {
           break;
         case "director":
           $director = $child2;
-          $sql = "INSERT INTO movies VALUES ($movieid, $title, $director)";
-          if (!mysqli_query($link,$sql)) {
-            echo "something wrong<br>";            
-            die('Error: ' . mysqli_error($con));
+          $sql = "INSERT INTO movies VALUES ('$movieid', '$title', '$director')";
+          if (!mysqli_query($link,$sql)) {         
+            die('Error: ' . mysqli_error($link));
           }
-          echo "1 record added";
+          echo "1 record added<br>";
       }
     }
   }
@@ -65,7 +67,7 @@ foreach($xml->children() as $child) {
 
 
 
-mysqli_close($con);
+mysqli_close($link);
 ?>
 
 </body>

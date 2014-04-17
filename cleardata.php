@@ -20,13 +20,19 @@ else
 
 
 $sql = "DELETE FROM movies";
-
 if (!mysqli_query($link,$sql))
   {
   die('Error: ' . mysqli_error($con));
   }
 echo "movies table cleared<br>";
 
+
+$sql = "DELETE FROM genres";
+if (!mysqli_query($link,$sql))
+  {
+  die('Error: ' . mysqli_error($con));
+  }
+echo "genres table cleared<br>";
 
 mysqli_close($con);
 ?>

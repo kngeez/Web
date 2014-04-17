@@ -45,7 +45,7 @@ foreach($xml->children() as $child) {
           if (!mysqli_query($link,$sql)) {         
             die('Error: ' . mysqli_error($link));
           }
-          echo "1 movie added<br>";
+          echo "<br>New movie added to movies table: " . $title . "<br>";
           break;
         case "genre":
           settype($child2, "string");
@@ -55,7 +55,7 @@ foreach($xml->children() as $child) {
             if (!mysqli_query($link,$sql)) {         
               die('Error: ' . mysqli_error($link));
             }
-            echo $child2 . " added to genres table<br>";
+            echo "New genre added to genres table: " . $child2 . "<br>";
             $genreskey++;
           }
       }

@@ -9,15 +9,13 @@
 
 $link=mysqli_connect("localhost", "root", "123", "my_db");
 // Check connection
-if (mysqli_connect_errno())
-  {
+if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error() . "<br>";
-  }
-else
-  {
+}
+else {
   echo "Connection successful<br>";
-  }
-
+}
+echo "<br>";
 
 $sql = "DELETE FROM movies";
 if (!mysqli_query($link,$sql))

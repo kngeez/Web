@@ -32,6 +32,28 @@ if (!mysqli_query($link,$sql))
   }
 echo "genres table cleared<br>";
 
+$sql = "DELETE FROM moviegenres";
+if (!mysqli_query($link,$sql))
+  {
+  die('Error: ' . mysqli_error($con));
+  }
+echo "moviegenres table cleared<br>";
+
+
+$sql = "DELETE FROM actors";
+if (!mysqli_query($link,$sql))
+  {
+  die('Error: ' . mysqli_error($con));
+  }
+echo "actors table cleared<br>";
+
+$sql = "DELETE FROM movieactors";
+if (!mysqli_query($link,$sql))
+  {
+  die('Error: ' . mysqli_error($con));
+  }
+echo "movieactors table cleared<br>";
+
 mysqli_close($con);
 ?>
 

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
 <body>
 
-<h1></h1>
 
 
 <?php
@@ -22,6 +24,8 @@ $title = "";
 $director = "";
 $genres = array();
 $genreskey = 1;
+$actors = array();
+$actorskey = 1;
 
 $xml=simplexml_load_file("moviedata.xml");
 //echo $xml->getName() . "<br>";
@@ -49,8 +53,8 @@ foreach($xml->children() as $child) {
           break;
         case "genre":
           settype($child2, "string");
-          if (!in_array($child2, $genres)) {
-            $genres[$genreskey] = $child2;
+          if (!array_key_exists($child2, $genres)) {
+            $genres[$child2] = $genreskey;
             $sql = "INSERT INTO genres VALUES ('$genreskey', '$child2')";
             if (!mysqli_query($link,$sql)) {         
               die('Error: ' . mysqli_error($link));
@@ -58,6 +62,31 @@ foreach($xml->children() as $child) {
             echo "New genre added to genres table: " . $child2 . "<br>";
             $genreskey++;
           }
+          $insertgenreid = $genres[$child2];
+          $sql = "INSERT INTO moviegenres VALUES ('$movieid', '$insertgenreid')";
+          if (!mysqli_query($link,$sql)) {         
+            die('Error: ' . mysqli_error($link));
+          }
+          break;
+        case "actor":
+          echo $child2 . "<br>";
+          settype($child2, "string");
+          if (!array_key_exists($child2, $actors)) {
+            $actors[$child2] = $actorskey;
+            $sql = "INSERT INTO actors VALUES ('$actorskey', '$child2')";
+            if (!mysqli_query($link,$sql)) {         
+              die('Error: ' . mysqli_error($link));
+            }
+            echo "New actor added to actors table: " . $child2 . "<br>";
+            $actorskey++;
+          }
+          $insertactorid = $actors[$child2];
+          $sql = "INSERT INTO movieactors VALUES ('$movieid', '$insertactorid')";
+          if (!mysqli_query($link,$sql)) {         
+            die('Error: ' . mysqli_error($link));
+          }
+          break;
+        default:
       }
     }
   }

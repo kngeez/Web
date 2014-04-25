@@ -1,17 +1,19 @@
 <html>
 <body>
 
-<form action="buildxml.php" method="post">
+<form action="buildxml.php" method="post" target="iframe_a">
 <button type="submit">Run PHP</button>
 </form>
 
-<form action="displaytables.php" method="post">
+<form action="displaytables.php" method="post" target="iframe_a">
 <button type="submit">Display Tables</button>
 </form>
 
-<form action="cleardata.php" method="post">
+<form action="cleardata.php" method="post" target="iframe_a">
 <button type="submit">Clear MySQL Table</button>
 </form>
+
+<iframe name="iframe_a" width="100%" height="100%" frameborder="0"></iframe>
 
 </body>
 </html>

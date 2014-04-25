@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
 <body>
 
 <h1></h1>
 
 
 <?php
-
 $link=mysqli_connect("localhost","root","123","my_db");
 // Check connection
-if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error() . "<br>";
+if (!$link) {
+  echo mysqli_connect_errno();
+  exit;
 }
 else {
   echo "Connection successful<br>";
 }
+mysqli_set_charset($link, "utf8");
 echo "<br>";
 
 $result = mysqli_query($link, "SELECT * FROM movies");

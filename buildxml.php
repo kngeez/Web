@@ -16,7 +16,7 @@ if (mysqli_connect_errno()) {
 } else {
   echo "Connection successful<br>";
 }
-
+mysqli_set_charset($link, "utf8");
 
 
 $movieid = "";
@@ -41,9 +41,11 @@ foreach($xml->children() as $child) {
       //echo "<br>";
       switch($child2->attributes()) {
         case "title":
+	  $child2 = mysqli_real_escape_string($link, $child2);
           $title = $child2;
           break;
         case "director":
+	  $child2 = mysqli_real_escape_string($link, $child2);
           $director = $child2;
           $sql = "INSERT INTO movies VALUES ('$movieid', '$title', '$director')";
           if (!mysqli_query($link,$sql)) {         
@@ -53,6 +55,7 @@ foreach($xml->children() as $child) {
           break;
         case "genre":
           settype($child2, "string");
+	  $child2 = mysqli_real_escape_string($link, $child2);
           if (!array_key_exists($child2, $genres)) {
             $genres[$child2] = $genreskey;
             $sql = "INSERT INTO genres VALUES ('$genreskey', '$child2')";
@@ -71,6 +74,7 @@ foreach($xml->children() as $child) {
         case "actor":
           echo $child2 . "<br>";
           settype($child2, "string");
+	  $child2 = mysqli_real_escape_string($link, $child2);
           if (!array_key_exists($child2, $actors)) {
             $actors[$child2] = $actorskey;
             $sql = "INSERT INTO actors VALUES ('$actorskey', '$child2')";

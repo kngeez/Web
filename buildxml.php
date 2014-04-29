@@ -16,7 +16,7 @@ if (mysqli_connect_errno()) {
 } else {
   echo "Connection successful<br>";
 }
-mysqli_set_charset($link, "utf8");
+
 
 
 $movieid = "";

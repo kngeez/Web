@@ -29,7 +29,8 @@ echo "<table border = '1'>
 <th>movieid</th>
 <th>title</th>
 <th>director</th>
-<th>genre</th>
+<th>genres</th>
+<th>actors</th>
 </tr>";
 
 while ($row = mysqli_fetch_array($result)) {
@@ -38,7 +39,7 @@ while ($row = mysqli_fetch_array($result)) {
   echo "<td>" . $movieid . "</td>";
   echo "<td>" . $row['title'] . "</td>";
   echo "<td>" . $row['director'] . "</td>";
-  $sqlgenre = "SELECT genre FROM moviegenres JOIN movies ON moviegenres.movieid = movies.movieid JOIN genres ON moviegenres.genreid = genres.genreid AND moviegenres.movieid = '$movieid'";
+  $sqlgenre = "SELECT genre FROM moviegenres JOIN movies ON moviegenres.movieid = movies.movieid JOIN genres ON moviegenres.genreid = genres.genreid AND moviegenres.movieid = '$movieid' GROUP BY genre";
   $resultgenre = mysqli_query($link, $sqlgenre);
   echo "<td>";
   $rowzero = mysqli_fetch_array($resultgenre);
@@ -47,6 +48,17 @@ while ($row = mysqli_fetch_array($result)) {
     echo", " . $rowgenre['genre'];
   }
   echo "</td>";
+
+  $sqlactor = "SELECT actor FROM movieactors JOIN movies ON movieactors.movieid = movies.movieid JOIN actors ON movieactors.actorid = actors.actorid AND movieactors.movieid = '$movieid' GROUP BY actor";
+  $resultactor = mysqli_query($link, $sqlactor);
+  echo "<td>";
+  $rowzero = mysqli_fetch_array($resultactor);
+  echo $rowzero['actor'];
+  while ($rowactor = mysqli_fetch_array($resultactor)) {
+    echo"; " . $rowactor['actor'];
+  }
+  echo "</td>";
+  echo "</tr>";
 }
 echo "</table>";
 echo "<br>";

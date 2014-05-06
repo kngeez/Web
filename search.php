@@ -40,9 +40,13 @@ while ($row = mysqli_fetch_array($result)) {
   echo "<td>" . $row['director'] . "</td>";
   $sqlgenre = "SELECT genre FROM moviegenres JOIN movies ON moviegenres.movieid = movies.movieid JOIN genres ON moviegenres.genreid = genres.genreid AND moviegenres.movieid = '$movieid'";
   $resultgenre = mysqli_query($link, $sqlgenre);
-  while ($row2 = mysqli_fetch_array($resultgenre)) {
-    echo "<td>" . $row2['genre'] . "</td>";
+  echo "<td>";
+  $rowzero = mysqli_fetch_array($resultgenre);
+  echo $rowzero['genre'];
+  while ($rowgenre = mysqli_fetch_array($resultgenre)) {
+    echo", " . $rowgenre['genre'];
   }
+  echo "</td>";
 }
 echo "</table>";
 echo "<br>";

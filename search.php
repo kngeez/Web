@@ -28,6 +28,24 @@
    }
 
 
+   function getMovieActors($link, $movie) {
+     $movieActors = array();
+     $sqlactor = "SELECT actor " .
+       "FROM movieactors " .
+       "JOIN movies ON movieactors.movieid = movies.movieid " .
+       "JOIN actors ON movieactors.actorid = actors.actorid " .
+       "AND movieactors.movieid = '" . $movie->getMovieId() . "' " .
+       "GROUP BY actor";
+     $resultactor = mysqli_query($link, $sqlactor);
+
+     while ($rowgenre = mysqli_fetch_array($resultactor)) {
+       array_push($movieActors, $rowactor['actor']);
+     }
+     return $movieActors;
+   }
+
+
+
 $search = $_POST['search_term'];
 
 echo "Search Term: " . $search . "<br><br>";
@@ -64,13 +82,14 @@ while ($row = mysqli_fetch_array($result)) {
   $rowCount += 1;
 
   $movie = new Movie($row['movieid'], $row['title'], $row['director']);
-  $genres = getMovieGenres($link, $movie);
+  $movie->setGenres(getMovieGenres($link, $movie));
+  
 ?>
   <tr <?= $oddClass ?>>
     <td><?= $movie->getMovieId() ?></td>
      <td><?= $movie->getTitle() ?></td>
      <td><?= $movie->getDirector() ?></td>
-    <td><?= join(", ", $genres); ?></td>
+     <td><?= join(", ", $movie->getGenres()); ?></td>
 
 <?php
   $sqlactor = "SELECT actor FROM movieactors JOIN movies ON movieactors.movieid = movies.movieid JOIN actors ON movieactors.actorid = actors.actorid AND movieactors.movieid = '" . $movie->getMovieId() . "' GROUP BY actor";
@@ -84,6 +103,8 @@ while ($row = mysqli_fetch_array($result)) {
   echo "</td>";
   echo "</tr>";
 }
+
+
 echo "</table>";
 echo "<br>";
 

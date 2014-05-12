@@ -25,5 +25,21 @@
       return $this->director;
     }
 
+    public function getGenres() {
+      return $this->genres;
+    }
+
+    public function getActors() {
+      return $this->actors;
+    }
+
+    public function setGenres($genres) {
+      $this->genres = $genres;
+    }
+
+    public function setActors($actors) {
+      $this->actors = $actors;
+    }
+
   }
 ?>

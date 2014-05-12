@@ -1,0 +1,2383 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   
+   <title>NoMachine - Download NoMachine for Linux</title>  
+      <!--<title>NoMachine - Download:  for Linux</title>-->
+   <title>NoMachine -  for Linux</title>
+     
+   
+  
+   
+   
+    <meta name="msvalidate.01" content="04BFC601A083F96034F95020032121C9" />
+   <meta name="keywords" content="Terminal Server, Thin-Client, Thin Client, Remote Access, Secure Remote Access, Remote Desktop, Linux Terminal Server, Linux Terminal Service, Network Computing, Server Consolidation, VNC, RDP, X11, NX, FreeNX, X-Window, X-Window System, X Protocol, X11 Protocol, X protocol Compression, nxclient, nxserver, nxproxy, VDI, Linux virtual desktop, desktop virtualization, application delivery, hosted desktop deployment, virtual desktop delivery, software as a service, remote management">
+   <link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/frontend/print.css?l" />    
+   <link rel="stylesheet" type="text/css" href="/sites/all/themes/frontend/styles/styles.css" />
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300&subset=latin" rel="stylesheet" type="text/css" />
+   <style type="text/css">
+   img{border:none;}
+   
+   .graphic, #prevBtn, #nextBtn{
+    margin:0;
+    padding:0;
+    display:block;
+    overflow:hidden;
+    text-indent:-8000px;
+   }
+   
+   #container{	
+    margin:0 auto;
+    position:relative;
+    text-align:left;
+   /* width:900px;*/
+    width: 745px;
+    margin-bottom:2em;
+    padding-top:0px;
+   }	
+   				
+   #content{
+    position:relative;
+   }			
+   
+   #slider1{
+      background:url(images/interface/web-bg.png) top left repeat-x;
+   }
+   
+   #slider{
+     border-top:1px solid #CBCBCB;
+     border-bottom:1px solid #CBCBCB;
+   }	
+   
+   #slider ul, #slider li{
+    margin:0;
+    padding:0;
+    list-style:none;
+   }
+   
+   #slider li{ 
+    /*width:900px;
+    height:280px;*/
+    overflow:hidden; 
+   }	
+   
+   #prevBtn, #nextBtn{ 
+    display:block;
+    width:30px;
+    height:56px;
+    position:absolute;
+    left:0px;
+    top:110px;
+   }	
+   
+   #nextBtn{ 
+    left:870px;
+   }														
+   
+   #prevBtn a, #nextBtn a{  
+    display:block;
+    width:30px;
+    height:56px;
+    background:url("/sites/all/themes/frontend/images/btn_prev.png") no-repeat 0 0;	
+   }	
+   
+   #nextBtn a{ 
+    background:url("/sites/all/themes/frontend/images/btn_next.png") no-repeat 0 0;	
+   }	
+   </style>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300&subset=latin" rel="stylesheet" type="text/css" />
+   <link type="text/css" rel="stylesheet" media="all" href="/modules/cck/theme/content-module.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/lightbox2/css/lightbox_alt.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/search_autocomplete/css/jquery.autocomplete.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/cck/modules/fieldgroup/fieldgroup.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/fontyourface/local_fonts/myriad_pro-normal-normal/stylesheet.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/fontyourface/local_fonts/myriad_regular-normal-normal/stylesheet.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/frontend/style.css?b" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/frontend/print.css?b" />
+   <script type="text/javascript" src="/misc/jquery.js?b"></script>
+<script type="text/javascript" src="/misc/drupal.js?b"></script>
+<script type="text/javascript" src="/modules/lightbox2/js/lightbox_modal.js?b"></script>
+<script type="text/javascript" src="/modules/lightbox2/js/lightbox.js?b"></script>
+<script type="text/javascript" src="/sites/all/modules/search_autocomplete/js/jquery.autocomplete.js?b"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": 0, "file_path": "/(\\w\\w/)sites/default/files", "default_image": "/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": "0.8", "overlay_color": "000", "disable_close_click": 1, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": 1, "disable_resize": 0, "disable_zoom": 0, "force_show_nav": 0, "show_caption": 1, "loop_items": 0, "node_link_text": "View Image Details", "node_link_target": 0, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": true, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "original", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 0, "enable_video": 0 }, "search_autocomplete": { "form1": { "selector": "#search-form", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/1/autocomplete", "fid": "1" }, "form3": { "selector": "#search-block-form", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/3/autocomplete", "fid": "3" }, "form5": { "selector": "#views-exposed-form-features-page-1", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/5/autocomplete", "fid": "5" }, "form6": { "selector": "#views-exposed-form-features-page-2", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/6/autocomplete", "fid": "6" }, "form7": { "selector": "#views-exposed-form-articles-page-2", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/7/autocomplete", "fid": "7" }, "form8": { "selector": "#views-exposed-form-articles-page-1", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/8/autocomplete", "fid": "8" }, "form9": { "selector": "#views-exposed-form-software-updates-page-1", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/9/autocomplete", "fid": "9" }, "form10": { "selector": "#views-exposed-form-trouble-page-1", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/10/autocomplete", "fid": "10" }, "form11": { "selector": "#views-exposed-form-trouble-page-2", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/11/autocomplete", "fid": "11" }, "form12": { "selector": "#views-exposed-form-documents-page-1", "minChars": "1", "max_sug": "8", "url": "https://www.nomachine.com/search_autocomplete/12/autocomplete", "fid": "12" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+var nomachine_base_path = '/';
+var nomachine_theme_path = '/sites/all/themes/frontend';
+var nomachine_ajax_path = '/sites/all/themes/frontend/ajaxProcess';
+
+//--><!]]>
+</script>
+   <!--[if IE 9]><link rel="stylesheet" type="text/css" href="/sites/all/themes/frontend/styles/IE9.css" media="all" /><![endif]-->
+   <!--[if IE 8]><link rel="stylesheet" type="text/css" href="/sites/all/themes/frontend/styles/IE8.css" media="all" /><![endif]-->
+   <!--[if IE 7]><link rel="stylesheet" type="text/css" href="/sites/all/themes/frontend/styles/IE7.css" media="all" /><![endif]-->
+	
+	   
+    
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/frontend/fontStyle.css?l" />
+
+   <!--[if lt IE 7]>
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/frontend/fix-ie.css" />   <![endif]-->
+    
+    
+   <script type="text/javascript" src="/sites/all/themes/frontend/nx.js"></script>  
+   <script type="text/javascript" src="/sites/all/themes/frontend/nx_func.js"></script>  
+   <script type="text/javascript" src="/sites/all/themes/frontend/md5.js"></script>   
+   <style type="text/css">
+    img, input { behavior: url("sites/all/themes/frontend/iepngfix.htc") }
+   </style>
+
+   <script type="text/javascript" src="/sites/all/themes/frontend/js/swiffy/runtime.js"></script>
+   <style>
+    html, body {
+    width: 100%; height: 100%
+    }
+   </style>
+   
+   <script type="text/javascript" src="/sites/all/themes/frontend/js/jquery.tools.min.js"></script>
+   <script type="text/javascript" src="/sites/all/themes/frontend/js/easySlider.js"></script>
+   <script type="text/javascript" src="/sites/all/themes/frontend/js/jquery.hrzAccordion.min.js"></script>
+	  
+    
+ <script> 
+  function submitForm(){
+     document.forms["downloadBanner"].submit();
+   }
+ </script> 
+</head>
+  
+
+<body id="bodyId" bgcolor="#ffffff"  >
+<div class="backOverlay"></div>
+<div id="inrWrpr">
+<!--<body >-->
+<!--[if lt IE 7]> <body   onload="calcWidth();" > <![endif]--> 
+  
+<!-- Layout -->
+
+<div id="dyn_layout">
+
+<!-- Top -->
+   
+<div id="top" style="margin:0 auto; border:0px solid red;">
+ <div id="top-content" style="border:0px solid green;">
+  <div id="top-content-left" style="border:0px solid blue;">
+   <a href="/"><img src="/sites/all/themes/frontend/logo.png" alt="" id="logo" /></a>  </div> 
+    <div id="menu_header">
+  
+     <ul id="nomachine_primary" style="border:0px solid orange; margin-right:0px;">
+            <li style="background-image:none;"><a id='overPeople' href="/people"><span>People</span></a></li>
+<li  class="active" ><a href="/download"><span style='color:#e00000'>Download</span></a></li>
+<li style="background-image:none;"><a id='overEnterprise' href="/enterprise"><span>Enterprise</span></a></li>
+<li ><a id='overSupport' href="/support"><span>Support</span></a></li>
+<li ><a id='overPartners' href="/partners"><span>Partners</span></a></li>
+<li ><a id='overStore' href="/buyonline"><span>Store</span></a></li>
+           </ul>
+     
+     
+     <!-- MyNoMachine + My BAG  -->
+  <div id="second-top" style="margin:0 auto; border:0px solid red;">
+  <div id="second-top-content">
+  <div id="second-top-content-left" style="border:0px solid green;">
+ 		<style type="text/css">
+		.backOverlay
+		{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+			background:#000;
+			opacity: .0;
+			filter:alpha(opacity=0);
+      z-index:10052;      
+			display:none;
+		}
+		.box
+		{
+			position:absolute;
+			top:200px;
+			left:33%;
+			width:478px;
+			height:200px;
+			background:#ECEBEB; /*#e6e6e6;*/
+			/*z-index:2001;*/
+      z-index:10053;
+			padding:10px;
+			padding-top:20px;
+			-webkit-border-radius: .2em;   
+			-moz-border-radius: .2em; 
+			border-radius: .2em; 
+			-moz-box-shadow:0px 0px 5px #444444;
+			-webkit-box-shadow:0px 0px 5px #444444;
+			box-shadow:0px 0px 5px #444444;
+			display:none;
+		}
+		.close
+		{
+			float:right;
+			margin-right:10px;
+			cursor:pointer;
+		}
+  .title_h1 {
+  color:#000000;
+  font-family:Verdana;
+  font-size:14px;
+  margin:0px;
+  padding-left:3px;
+  }
+		</style>
+		
+<script type="text/javascript">
+function stop_call_support_login()
+{
+  var fieldPassPartners=document.getElementById("inputPassWizard_login");
+  var fieldUserPartners=document.getElementById("inputSupportWizard_login");
+  if(fieldPassPartners.value!="" && fieldUserPartners.value!="")
+  {
+	  document.getElementById("inputSupport_login").value=fieldUserPartners.value;
+	  document.getElementById("inputPass_login").value=fieldPassPartners.value;
+
+    var loginid=document.getElementById('inputSupportWizard_login').value;
+    var who=loginid.substring(0,3);
+    if(who=="NMP") var destination='partners';
+    else var destination='support';
+    var url = document.location.toString();
+    var url2_array=url.split("/");
+    //linda  
+    var url_base=url2_array[0]+'/'+url2_array[1]+'/'+url2_array[2]+'/'+url2_array[3];
+    
+    var datastr ='id='+fieldUserPartners.value+'&pwd='+fieldPassPartners.value+'&what=&path='+nomachine_base_path;
+    var url=nomachine_base_path+'verify_account.php';
+    //alert('url='+url);
+      
+  $.ajax({
+  type: "POST",
+  url: url,
+  data: datastr,
+  cache: false,
+  success: function(msg)
+  {
+    msg1=msg.substr(0,5);
+    if(msg1=='valid')
+    {
+      document.getElementById('user-login-form_login').action=url_base+'/?destination='+destination;
+	    document.getElementById('user-login-form_login').submit();
+    }
+    else
+    {
+      document.getElementById("errorloginok").style.display='none';
+      document.getElementById("errorlogin").style.display='block';
+      $("div#errorlogin").html("Invalid Id and/or Password");
+    }
+  },
+  error: function(){
+    alert("Error!");
+  }
+  });
+    /*document.getElementById('user-login-form_login').action=url_base+'/?destination='+destination;
+	  document.getElementById('user-login-form_login').submit();*/
+  }
+}
+
+
+function rememberNamePartner_login()
+{
+  var fieldUserPartners=document.getElementById("inputSupportWizard_login");
+  if(fieldUserPartners.value=="")
+  {
+    //document.getElementById('remNamePartner_login').innerHTML = 'Insert your ID';
+    //document.getElementById('inputSupportWizard_login').style.border="thick solid #0000FF";
+    document.getElementById('inputSupportWizard_login').removeAttribute("class");
+    document.getElementById('inputSupportWizard_login').setAttribute("class","insid"); 
+  }
+  else
+  {
+    rememberPassPartner_login();
+  }
+}
+
+function rememberPassPartner_login()
+{
+  var fieldPassPartners=document.getElementById("inputPassWizard_login");
+  if(fieldPassPartners.value=="")
+  {
+    /*document.getElementById('remPassPartner_login').innerHTML = 'Insert your Password';*/
+    document.getElementById('inputPassWizard_login').removeAttribute("class");
+    document.getElementById('inputPassWizard_login').setAttribute("class","inspwd"); 
+    //alert('Insert your Username');
+  }
+}
+
+function hiddenNamePartner_login()
+{
+  var fieldUserPartners=document.getElementById("inputSupportWizard_login");
+
+  if(fieldUserPartners.value!="")
+  {
+    /*document.getElementById('remNamePartner_login').innerHTML = '';*/
+    document.getElementById('inputSupportWizard_login').removeAttribute("class");
+    document.getElementById('inputSupportWizard_login').setAttribute("class","inputSupportWizard_login"); 
+  }
+}
+
+function hiddenPassPartner_login()
+{
+  var fieldPassPartners=document.getElementById("inputPassWizard_login");
+
+  if(fieldPassPartners.value!="")
+  {
+    /*document.getElementById('remPassPartner_login').innerHTML = '';*/
+    document.getElementById('inputPassWizard_login').removeAttribute("class");
+     document.getElementById('inputPassWizard_login').setAttribute("class","inputPassWizard_login");
+    
+  }
+}
+
+
+function forgotpwd_login()
+{
+	 var fieldUserPartners=document.getElementById("inputSupportWizard_login");
+
+      if(fieldUserPartners.value=="")
+      {
+        /*document.getElementById('remNamePartner_login').innerHTML = 'Insert your ID';*/
+        document.getElementById('inputSupportWizard_login').removeAttribute("class");
+        document.getElementById('inputSupportWizard_login').setAttribute("class","insid"); 
+      }
+      else
+      {
+
+	    document.getElementById('inputSupportWizard_id_login').value=document.getElementById('inputSupportWizard_login').value;
+	    //errorForgotok
+	    
+	    var datastr1 ='id='+document.getElementById('inputSupportWizard_login').value+'&pwd=&what=forgot&path='+nomachine_base_path;
+      var url1=nomachine_base_path+'verify_account.php';
+	    $.ajax({
+       type: "POST",
+       url: url1,
+       data: datastr1,
+       cache: false,
+       success: function(msg)
+       {
+         //alert(msg);
+         msg1=msg.substr(0,5);
+         if(msg1=='valid')
+         {
+           document.getElementById("divlogin_login").style.display='none';
+	         document.getElementById("divreqpwd_login").style.display='block';
+         }
+         else
+         {
+           document.getElementById("errorloginok").style.display='none';
+           document.getElementById("errorlogin").style.display='block';
+           $("div#errorlogin").html("Invalid Id");
+         }
+       },
+       error: function(){
+        alert("Error!");
+       }
+     });
+  
+	    
+	    
+	    
+      }
+
+
+}
+
+function cancel_login()
+{
+	 document.getElementById('inputSupportWizard_id_login').value=document.getElementById('inputSupportWizard_login').value;
+	    document.getElementById("divlogin_login").style.display='block';
+	    document.getElementById("divreqpwd_login").style.display='none';
+
+}
+
+
+function sendrequest_login(datastr){
+
+  var name = document.getElementById("inputSupportWizard_id_login").value;
+  var datastr ='name=' + name ;
+
+  $.ajax({
+  type: "POST",
+  url: "sendMail.php",
+  data: datastr,
+  cache: false
+  });
+
+  window.parent.location.reload();
+}
+
+
+$(document).ready(function()
+{
+  /*
+  $('.lightboxLogin').click(function()
+  {
+    $('.backOverlay, .box').animate({'opacity':'.50'}, 300, 'linear');
+    $('.box').animate({'opacity':'1.00'}, 300, 'linear');
+    var h=$('#inrWrpr').innerHeight();
+    $('.backOverlay').css('height', h+'px');
+    $('.backOverlay, .box').css('display', 'block');
+  });
+
+  $('.close').click(function(){
+   close_box();
+  });
+
+  $('.backOverlay').click(function(){
+  	close_box();
+  });
+  */
+
+});
+
+function close_box()
+{
+	
+	document.getElementById('inputSupportWizard_login').removeAttribute("class");
+	document.getElementById('inputSupportWizard_login').setAttribute("class","inputSupportWizard_login");
+	document.getElementById('inputPassWizard_login').removeAttribute("class");
+	document.getElementById('inputPassWizard_login').setAttribute("class","inputPassWizard_login");
+	
+	    document.getElementById("errorloginok").style.display='block';
+      document.getElementById("errorlogin").style.display='none';
+      
+	
+	document.getElementById("divlogin_login").style.display='block';
+  document.getElementById("divreqpwd_login").style.display='none';
+  document.getElementById("inputSupportWizard_login").value="";
+  document.getElementById("inputPassWizard_login").value="";
+  document.getElementById("inputSupportWizard_id_login").value="";  
+	$('.backOverlay, .box').animate({'opacity':'0'}, 300, 'linear', function(){
+		$('.backOverlay, .box').css('display', 'none');
+	});
+}
+
+function openBox()
+{
+}
+
+</script>
+
+
+  
+  
+ <table width="100%" cellSpacing="0" cellPadding="0" border="0" class="submenu-internal-command" style="letter-spacing:1px; padding-right: 16px;font-family: Arial; font-size: 10px;">
+ 
+ <tr>
+    <td style="padding-right:5px"><img src="/sites/all/themes/frontend/images/shared/user-login-small.png" /></td>
+  <td class="login_new">
+   <!--<a class="lightboxLogin" href="javascript: openBox()"><strong>LOGIN</strong></a>-->
+   <a class="lightboxLogin" rel="NOFOLLOW" href="/support#login"><strong>LOGIN</strong></a>
+  </td>
+ </tr>
+</table>
+
+
+<div class="box">
+ <div class="close"><img width="21" height="20" border="0" alt="" src="sites/all/themes/frontend/images/shared/close.png" /></div>
+ <center>
+  <div id="contentWizard11">
+   <div id="loader">
+    <table cellspacing="0" cellpadding="0"  border="0" width="100%" style="background-color:transparent;">
+     <tbody>
+      <tr>
+       <td colspan="3" id="CenterTableDownload111" >
+        <table cellspacing="0" cellpadding="0" width="100%"  border="0">
+        
+        <tr>  
+         <td width="14px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>   
+         <td width="450px">
+          <table cellspacing="0" cellpadding="0" width="100%" border="0" style="">
+            
+           <tr>
+            <td width="10%" height="45" style="padding-left:10px;"><img width="43" height="45" border="0" alt="" src="sites/all/themes/frontend/images/shared/login_icon.png"></td>
+            <td width="90%" valign="top" align="left">
+             <table cellspacing="0" cellpadding="0" width="100%"  border="0">
+              <tr>                  
+               <td class="login_new" style="color:#000000; font-family:Verdana; text-align:left; font-weight:normal; padding-left:5px; padding-bottom:2px; font-size:10px; ">My NoMachine</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+           <tr>
+            <td colspan="2">
+             
+              <form action="" accept-charset="UTF-8" method="post"  id="user-login-form_login">
+               <div id="divlogin_login" style="display:block;">
+               <table cellspacing="0" cellpadding="0" width="100%"  border="0" style="padding-top:15px">
+                <tr>
+                 <td style="color:#222222; font-family: Verdana; text-align:left;font-weight:normal;padding-left:5px; padding-bottom:2px; font-size:14px;">Login ID</td>
+                 <td width="20px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                 <td style="color:#222222; font-family: Verdana; text-align:left; font-weight:normal; padding-left:5px; padding-bottom:2px; font-size:14px;">Password</td>
+                </tr>
+                <tr>
+                 <td style="text-align:left; padding-left:0px;">
+                  <input onkeypress="hiddenNamePartner_login();" style="padding-left:5px;" id="inputSupportWizard_login" 
+                   class="inputSupportWizard_login"  maxlength="64" name="name" type="text">
+                 </td>
+                 <td width="20px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                 <td style="text-align:left; padding-left:0px;">
+                  <input onkeypress="hiddenPassPartner_login();" style="padding-left:5px;" id="inputPassWizard_login" 
+                   class="inputPassWizard_login" id="" maxlength="64" name="pass" type="password">
+                 </td>
+                </tr>
+                <tr>
+                <td colspan="3"  width="100%">
+                <div id="errorloginok" style="display:block;">&nbsp;</div>
+                <div id="errorlogin" style="display:none;"></div>
+                </td>
+                </tr>
+                <tr>
+                 <td colspan="3"  width="100%"><img width="50" height="20" border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                </tr>
+                <tr>
+                 <td colspan="3">
+                  <table width="100%" border="0">                   
+                   <tr>
+                    <td align="right" width="70%" nowrap style="font-weight:bold; padding-bottom:2px; font-size:12px;">
+                     <font class="tableStructureDescription">
+                      <a href="#" class="link-internal" style="color:#222222; font-family: Verdana; color:#0A8AD5; margin:0px; padding:0px;" onclick="forgotpwd_login();">
+                       Forgot your password?
+                      </a>
+                     </font>
+                    </td>      
+                    <td nowrap="" align="right" width="30%" valign="middle" class="button_box_home blueButtFixedWidth" style="padding-right:6px;">
+                     <a href="javascript:stop_call_support_login();javascript:rememberNamePartner_login();">Login</a>
+                    </td>                    
+                   </tr>
+                  </table>
+                 </td>
+                </tr>
+               </table>
+               </div>
+               <div id="divreqpwd_login" style="display:none;">
+               <table cellspacing="0" cellpadding="0" width="100%"  border="0" style="padding-top:15px">
+                <tr>
+                 <td style="color:#222222; font-family: Verdana; text-align:left;font-weight:normal;padding-left:5px; padding-bottom:2px; font-size:14px;">Login ID</td>
+                 <td width="20px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                 <td style="color:#222222; font-family: Verdana; text-align:left; font-weight:normal; padding-left:5px; padding-bottom:2px; font-size:14px;">Password</td>
+                </tr>
+                <tr>
+                 <td style="text-align:left; padding-left:0px;">
+                  <input onkeypress="hiddenNamePartner_login();" style="padding-left:5px;" id="inputSupportWizard_id_login" 
+                   class="inputSupportWizard_login"  maxlength="64" name="name_login" type="text">
+                 </td>
+                 <td width="20px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                 <td style="text-align:left; padding-left:0px;">
+                  <input onkeypress="hiddenPassPartner_login();" style="padding-left:5px;" id="inputPassWizard_login" 
+                   class="inputPassWizard_login" id="" maxlength="64" name="pass_login" type="password">
+                 </td>
+                </tr>
+                <tr>
+                <td colspan="3"  width="100%">
+                <div id="errorForgotok" style="display:block;">&nbsp;</div>
+                <div id="errorForgot" style="display:none;"></div>
+                </td>
+                </tr>
+                <tr>
+                 <td colspan="3"  width="100%"><img width="50" height="20" border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                </tr>
+                <tr>
+                       <td colspan="3">
+                        <table width="100%" border="0">
+                         <tr>
+                          <td align="right" width="67%" style="color:#222222; font-family: Verdana; font-weight:none; padding-bottom:2px; font-size:12px;">
+                           The new password will be sent to your email.
+                          </td>
+                          <td align="right" width="33%" class="button_box_home blueButtHome" valign="middle" width="25%" style="padding-right:6px;">
+                           <a href="javascript:sendrequest_login();">Send request</a>
+                          </td>                    
+                         </tr>
+                        </table>
+                       </td>
+                      </tr>
+               </table>
+               </div>
+                <input name="form_id" id="edit-user-login-block" value="user_login_block" type="hidden">
+
+                    <input name="inputPass" id="inputPass_login" value="" type="hidden">
+                    <input name="inputSupport" id="inputSupport_login" value="" type="hidden">
+              </form>
+             
+            </td>
+           </tr>
+           
+           
+          </table>
+         </td>
+         <td width="8px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+        </tr>      
+             
+              
+        </table>
+       </td>
+      </tr>
+     </tbody>
+    </table> 
+   </div>
+  </div>
+ </center>
+</div>
+    
+
+
+ </div> 
+ </div><!--class="submenu-internal-content" -->
+</div> <!--class="submenu-internal"  
+     
+commented MyNoMachine+MyBag+myArea ...-->
+     
+ </div>
+ 
+ </div>
+ 
+ 
+</div>
+ 
+<!-- / Top -->
+ 
+<!-- / Banner and Submenu for HomePage --> 
+  
+<!-- Banner and Submenu for InternalPage --> 
+
+ <!-- Submenu -->
+<!-- <div id="second-top" style="margin:0 auto;">
+  <div id="second-top-content">
+  <div id="second-top-content-left">
+   <table border="0" width="100%">
+    <tr>
+     <td>MY</td>
+    </tr>
+   </table>
+  </div>
+  </div>
+ </div>-->
+
+<!--<div class="submenu-internal" style="border:0px solid red;">
+ <div class="submenu-internal-content" style="border:0px solid green;" align="center">
+ <div class="sub_submenu-internal " style="border:0px solid blue;">
+ -->
+ 
+<!-- MyNoMachine + My BAG
+  <div id="second-top" style="margin:0 auto;">
+  <div id="second-top-content">
+  <div id="second-top-content-left" style="border:0px solid green;">
+ 		<style type="text/css">
+		.backOverlay
+		{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+			background:#000;
+			opacity: .0;
+			filter:alpha(opacity=0);
+      z-index:10052;      
+			display:none;
+		}
+		.box
+		{
+			position:absolute;
+			top:200px;
+			left:33%;
+			width:478px;
+			height:200px;
+			background:#ECEBEB; /*#e6e6e6;*/
+			/*z-index:2001;*/
+      z-index:10053;
+			padding:10px;
+			padding-top:20px;
+			-webkit-border-radius: .2em;   
+			-moz-border-radius: .2em; 
+			border-radius: .2em; 
+			-moz-box-shadow:0px 0px 5px #444444;
+			-webkit-box-shadow:0px 0px 5px #444444;
+			box-shadow:0px 0px 5px #444444;
+			display:none;
+		}
+		.close
+		{
+			float:right;
+			margin-right:10px;
+			cursor:pointer;
+		}
+  .title_h1 {
+  color:#000000;
+  font-family:Verdana;
+  font-size:14px;
+  margin:0px;
+  padding-left:3px;
+  }
+		</style>
+		
+<script type="text/javascript">
+function stop_call_support_login()
+{
+  var fieldPassPartners=document.getElementById("inputPassWizard_login");
+  var fieldUserPartners=document.getElementById("inputSupportWizard_login");
+  if(fieldPassPartners.value!="" && fieldUserPartners.value!="")
+  {
+	  document.getElementById("inputSupport_login").value=fieldUserPartners.value;
+	  document.getElementById("inputPass_login").value=fieldPassPartners.value;
+
+    var loginid=document.getElementById('inputSupportWizard_login').value;
+    var who=loginid.substring(0,3);
+    if(who=="NMP") var destination='partners';
+    else var destination='support';
+    var url = document.location.toString();
+    var url2_array=url.split("/");
+    //linda  
+    var url_base=url2_array[0]+'/'+url2_array[1]+'/'+url2_array[2]+'/'+url2_array[3];
+    
+    var datastr ='id='+fieldUserPartners.value+'&pwd='+fieldPassPartners.value+'&what=&path='+nomachine_base_path;
+    var url=nomachine_base_path+'verify_account.php';
+    //alert('url='+url);
+      
+  $.ajax({
+  type: "POST",
+  url: url,
+  data: datastr,
+  cache: false,
+  success: function(msg)
+  {
+    msg1=msg.substr(0,5);
+    if(msg1=='valid')
+    {
+      document.getElementById('user-login-form_login').action=url_base+'/?destination='+destination;
+	    document.getElementById('user-login-form_login').submit();
+    }
+    else
+    {
+      document.getElementById("errorloginok").style.display='none';
+      document.getElementById("errorlogin").style.display='block';
+      $("div#errorlogin").html("Invalid Id and/or Password");
+    }
+  },
+  error: function(){
+    alert("Error!");
+  }
+  });
+    /*document.getElementById('user-login-form_login').action=url_base+'/?destination='+destination;
+	  document.getElementById('user-login-form_login').submit();*/
+  }
+}
+
+
+function rememberNamePartner_login()
+{
+  var fieldUserPartners=document.getElementById("inputSupportWizard_login");
+  if(fieldUserPartners.value=="")
+  {
+    //document.getElementById('remNamePartner_login').innerHTML = 'Insert your ID';
+    //document.getElementById('inputSupportWizard_login').style.border="thick solid #0000FF";
+    document.getElementById('inputSupportWizard_login').removeAttribute("class");
+    document.getElementById('inputSupportWizard_login').setAttribute("class","insid"); 
+  }
+  else
+  {
+    rememberPassPartner_login();
+  }
+}
+
+function rememberPassPartner_login()
+{
+  var fieldPassPartners=document.getElementById("inputPassWizard_login");
+  if(fieldPassPartners.value=="")
+  {
+    /*document.getElementById('remPassPartner_login').innerHTML = 'Insert your Password';*/
+    document.getElementById('inputPassWizard_login').removeAttribute("class");
+    document.getElementById('inputPassWizard_login').setAttribute("class","inspwd"); 
+    //alert('Insert your Username');
+  }
+}
+
+function hiddenNamePartner_login()
+{
+  var fieldUserPartners=document.getElementById("inputSupportWizard_login");
+
+  if(fieldUserPartners.value!="")
+  {
+    /*document.getElementById('remNamePartner_login').innerHTML = '';*/
+    document.getElementById('inputSupportWizard_login').removeAttribute("class");
+    document.getElementById('inputSupportWizard_login').setAttribute("class","inputSupportWizard_login"); 
+  }
+}
+
+function hiddenPassPartner_login()
+{
+  var fieldPassPartners=document.getElementById("inputPassWizard_login");
+
+  if(fieldPassPartners.value!="")
+  {
+    /*document.getElementById('remPassPartner_login').innerHTML = '';*/
+    document.getElementById('inputPassWizard_login').removeAttribute("class");
+     document.getElementById('inputPassWizard_login').setAttribute("class","inputPassWizard_login");
+    
+  }
+}
+
+
+function forgotpwd_login()
+{
+	 var fieldUserPartners=document.getElementById("inputSupportWizard_login");
+
+      if(fieldUserPartners.value=="")
+      {
+        /*document.getElementById('remNamePartner_login').innerHTML = 'Insert your ID';*/
+        document.getElementById('inputSupportWizard_login').removeAttribute("class");
+        document.getElementById('inputSupportWizard_login').setAttribute("class","insid"); 
+      }
+      else
+      {
+
+	    document.getElementById('inputSupportWizard_id_login').value=document.getElementById('inputSupportWizard_login').value;
+	    //errorForgotok
+	    
+	    var datastr1 ='id='+document.getElementById('inputSupportWizard_login').value+'&pwd=&what=forgot&path='+nomachine_base_path;
+      var url1=nomachine_base_path+'verify_account.php';
+	    $.ajax({
+       type: "POST",
+       url: url1,
+       data: datastr1,
+       cache: false,
+       success: function(msg)
+       {
+         //alert(msg);
+         msg1=msg.substr(0,5);
+         if(msg1=='valid')
+         {
+           document.getElementById("divlogin_login").style.display='none';
+	         document.getElementById("divreqpwd_login").style.display='block';
+         }
+         else
+         {
+           document.getElementById("errorloginok").style.display='none';
+           document.getElementById("errorlogin").style.display='block';
+           $("div#errorlogin").html("Invalid Id");
+         }
+       },
+       error: function(){
+        alert("Error!");
+       }
+     });
+  
+	    
+	    
+	    
+      }
+
+
+}
+
+function cancel_login()
+{
+	 document.getElementById('inputSupportWizard_id_login').value=document.getElementById('inputSupportWizard_login').value;
+	    document.getElementById("divlogin_login").style.display='block';
+	    document.getElementById("divreqpwd_login").style.display='none';
+
+}
+
+
+function sendrequest_login(datastr){
+
+  var name = document.getElementById("inputSupportWizard_id_login").value;
+  var datastr ='name=' + name ;
+
+  $.ajax({
+  type: "POST",
+  url: "sendMail.php",
+  data: datastr,
+  cache: false
+  });
+
+  window.parent.location.reload();
+}
+
+
+$(document).ready(function()
+{
+  $('.lightboxLogin').click(function()
+  {
+    $('.backOverlay, .box').animate({'opacity':'.50'}, 300, 'linear');
+    $('.box').animate({'opacity':'1.00'}, 300, 'linear');
+    var h=$('#inrWrpr').innerHeight();
+    $('.backOverlay').css('height', h+'px');
+    $('.backOverlay, .box').css('display', 'block');
+  });
+
+  $('.close').click(function(){
+   close_box();
+  });
+
+  $('.backOverlay').click(function(){
+  	close_box();
+  });
+
+});
+
+function close_box()
+{
+	
+	document.getElementById('inputSupportWizard_login').removeAttribute("class");
+	document.getElementById('inputSupportWizard_login').setAttribute("class","inputSupportWizard_login");
+	document.getElementById('inputPassWizard_login').removeAttribute("class");
+	document.getElementById('inputPassWizard_login').setAttribute("class","inputPassWizard_login");
+	
+	    document.getElementById("errorloginok").style.display='block';
+      document.getElementById("errorlogin").style.display='none';
+      
+	
+	document.getElementById("divlogin_login").style.display='block';
+  document.getElementById("divreqpwd_login").style.display='none';
+  document.getElementById("inputSupportWizard_login").value="";
+  document.getElementById("inputPassWizard_login").value="";
+  document.getElementById("inputSupportWizard_id_login").value="";  
+	$('.backOverlay, .box').animate({'opacity':'0'}, 300, 'linear', function(){
+		$('.backOverlay, .box').css('display', 'none');
+	});
+}
+
+function openBox()
+{
+}
+
+</script>
+
+
+
+<table cellSpacing="0" cellPadding="0" border="0" class="submenu-internal-command" style="padding-right: 15px;">
+ <tr>
+  <td class="login_new">
+   <a class="lightboxLogin" href="javascript: openBox()">MY NOMACHINE</a>
+  </td>
+  <td>&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+  <td class="mycart_new_no_logged"><a href="/ShoppingBag">MY BAG </a></td>
+ </tr>
+</table>
+
+<div class="box">
+ <div class="close"><img width="21" height="20" border="0" alt="" src="sites/all/themes/frontend/images/shared/close.png" /></div>
+ <center>
+  <div id="contentWizard11">
+   <div id="loader">
+    <table cellspacing="0" cellpadding="0"  border="0" width="100%" style="background-color:transparent;">
+     <tbody>
+      <tr>
+       <td colspan="3" id="CenterTableDownload111" >
+        <table cellspacing="0" cellpadding="0" width="100%"  border="0">
+        
+        <tr>  
+         <td width="14px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>   
+         <td width="450px">
+          <table cellspacing="0" cellpadding="0" width="100%" border="0" style="">
+            
+           <tr>
+            <td width="10%" height="45" style="padding-left:10px;"><img width="43" height="45" border="0" alt="" src="sites/all/themes/frontend/images/shared/login_icon.png"></td>
+            <td width="90%" valign="top" align="left">
+             <table cellspacing="0" cellpadding="0" width="100%"  border="0">
+              <tr>                  
+               <td class="login_new" style="color:#000000; font-family:Verdana; text-align:left; font-weight:normal; padding-left:5px; padding-bottom:2px; font-size:18px; ">My NoMachine</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+           <tr>
+            <td colspan="2">
+             
+              <form action="" accept-charset="UTF-8" method="post"  id="user-login-form_login">
+               <div id="divlogin_login" style="display:block;">
+               <table cellspacing="0" cellpadding="0" width="100%"  border="0" style="padding-top:15px">
+                <tr>
+                 <td style="color:#222222; font-family: Verdana; text-align:left;font-weight:normal;padding-left:5px; padding-bottom:2px; font-size:14px;">Login ID</td>
+                 <td width="20px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                 <td style="color:#222222; font-family: Verdana; text-align:left; font-weight:normal; padding-left:5px; padding-bottom:2px; font-size:14px;">Password</td>
+                </tr>
+                <tr>
+                 <td style="text-align:left; padding-left:0px;">
+                  <input onkeypress="hiddenNamePartner_login();" style="padding-left:5px;" id="inputSupportWizard_login" 
+                   class="inputSupportWizard_login"  maxlength="64" name="name" type="text">
+                 </td>
+                 <td width="20px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                 <td style="text-align:left; padding-left:0px;">
+                  <input onkeypress="hiddenPassPartner_login();" style="padding-left:5px;" id="inputPassWizard_login" 
+                   class="inputPassWizard_login" id="" maxlength="64" name="pass" type="password">
+                 </td>
+                </tr>
+                <tr>
+                <td colspan="3"  width="100%">
+                <div id="errorloginok" style="display:block;">&nbsp;</div>
+                <div id="errorlogin" style="display:none;"></div>
+                </td>
+                </tr>
+                <tr>
+                 <td colspan="3"  width="100%"><img width="50" height="20" border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                </tr>
+                <tr>
+                 <td colspan="3">
+                  <table width="100%" border="0">                   
+                   <tr>
+                    <td align="right" width="70%" nowrap style="font-weight:bold; padding-bottom:2px; font-size:12px;">
+                     <font class="tableStructureDescription">
+                      <a href="#" class="link-internal" style="color:#222222; font-family: Verdana; color:#0A8AD5; margin:0px; padding:0px;" onclick="forgotpwd_login();">
+                       Forgot your password?
+                      </a>
+                     </font>
+                    </td>      
+                    <td nowrap="" align="right" width="30%" valign="middle" class="button_box_home blueButtFixedWidth" style="padding-right:6px;">
+                     <a href="javascript:stop_call_support_login();javascript:rememberNamePartner_login();">Login</a>
+                    </td>                    
+                   </tr>
+                  </table>
+                 </td>
+                </tr>
+               </table>
+               </div>
+               <div id="divreqpwd_login" style="display:none;">
+               <table cellspacing="0" cellpadding="0" width="100%"  border="0" style="padding-top:15px">
+                <tr>
+                 <td style="color:#222222; font-family: Verdana; text-align:left;font-weight:normal;padding-left:5px; padding-bottom:2px; font-size:14px;">Login ID</td>
+                 <td width="20px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                 <td style="color:#222222; font-family: Verdana; text-align:left; font-weight:normal; padding-left:5px; padding-bottom:2px; font-size:14px;">Password</td>
+                </tr>
+                <tr>
+                 <td style="text-align:left; padding-left:0px;">
+                  <input onkeypress="hiddenNamePartner_login();" style="padding-left:5px;" id="inputSupportWizard_id_login" 
+                   class="inputSupportWizard_login"  maxlength="64" name="name_login" type="text">
+                 </td>
+                 <td width="20px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                 <td style="text-align:left; padding-left:0px;">
+                  <input onkeypress="hiddenPassPartner_login();" style="padding-left:5px;" id="inputPassWizard_login" 
+                   class="inputPassWizard_login" id="" maxlength="64" name="pass_login" type="password">
+                 </td>
+                </tr>
+                <tr>
+                <td colspan="3"  width="100%">
+                <div id="errorForgotok" style="display:block;">&nbsp;</div>
+                <div id="errorForgot" style="display:none;"></div>
+                </td>
+                </tr>
+                <tr>
+                 <td colspan="3"  width="100%"><img width="50" height="20" border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+                </tr>
+                <tr>
+                       <td colspan="3">
+                        <table width="100%" border="0">
+                         <tr>
+                          <td align="right" width="67%" style="color:#222222; font-family: Verdana; font-weight:none; padding-bottom:2px; font-size:12px;">
+                           The new password will be sent to your email.
+                          </td>
+                          <td align="right" width="33%" class="button_box_home blueButtHome" valign="middle" width="25%" style="padding-right:6px;">
+                           <a href="javascript:sendrequest_login();">Send request</a>
+                          </td>                    
+                         </tr>
+                        </table>
+                       </td>
+                      </tr>
+               </table>
+               </div>
+                <input name="form_id" id="edit-user-login-block" value="user_login_block" type="hidden">
+
+                    <input name="inputPass" id="inputPass_login" value="" type="hidden">
+                    <input name="inputSupport" id="inputSupport_login" value="" type="hidden">
+              </form>
+             
+            </td>
+           </tr>
+           
+           
+          </table>
+         </td>
+         <td width="8px"><img  border="0" alt="" src="sites/all/themes/frontend/images/interface/empty.png" /></td>
+        </tr>      
+             
+              
+        </table>
+       </td>
+      </tr>
+     </tbody>
+    </table> 
+   </div>
+  </div>
+ </center>
+</div>
+    
+
+
+ </div> 
+ </div><!--class="submenu-internal-content"
+</div> <!--class="submenu-internal"
+
+commented MyNoMachine+MyBag+myArea ...-->
+ 
+<!-- / Banner and Submenu for InternalPage -->
+
+
+<!-- Body HomePage -->
+
+          
+<!-- / Body HomePage -->
+
+
+
+<!-- Body InternalPage -->     
+
+<div id="subHeader" style="border:0px solid red;  text-align:left;">
+    <!--<div style="height: 208px; background: url('/sites/all/themes/frontend/images/slider-bg.jpg') repeat scroll center top;">      -->
+    <div style="height: 208px; background-color:#131313;">      
+      <div style="margin: 0 auto; padding-left:0px; padding-right:0px; max-width:1000px; min-width:800px;">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-left: 0px;">    
+  <tr>
+    <td colspan="2" id="descriptionProduct">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-left:0px;">
+        <tr>
+          <td valign="top">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" style="padding-top:40px;">
+              <tr>
+                <td width="80%" valign="top">
+                  <table cellspacing="0" cellpadding="0" border="0" style="margin-left: 10px;">
+                    <tr>                                                                                                             <!-- nomachine4-1 -->
+                      <td width="" valign="top" align="left">
+                        <!--div style="margin-right: 10px; float: left; width: 12%;"-boxYellowImg----  -->
+                        <div class="boxTransparentImg" style="margin-left: 0px; border-left-width: 0px; border-right-width: 0px; margin-right: 10px;">
+                          <!-- class="img-home" --><img border="0" src="/sites/all/themes/frontend/images/download/DownloadIntro.png">
+                        </div>
+                      </td>
+                      <td width="86%" style="vertical-align:top;">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td style="padding-top: 17px; padding-bottom: 5px;">
+                              <h1 class="titleIntro">NoMachine Download</h1>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h3 class="subTitleIntro">Free remote desktop for everybody</h3> 
+                              <!--p><span style="color:#fff;">Keep your content in your own cloud, and not in someone else's. Get instant access to your computer, share files with exactly who you want, collaborate on projects, provide remote assistance, or manage multiple desktops. Download and try!</span></p-->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>  
+    </td>
+  </tr>
+</table>
+        
+       
+     
+     
+      </div>
+     </div>
+  </div>
+  
+   <!--<div style="border:1px solid #ff0000; background-color:#343434; height:48px; width:100%">
+    <div style="border:0px solid green; margin: 0 auto; padding-left:0px; padding-right:0px; max-width:1000px; min-width:800px; line-height:48px;">-->
+      <div id="subHeader" style="border:0px solid red;  text-align:left;">
+        <div style="height: 48px; background-color:#343434;">   
+        <div style="margin: 0 auto; padding-left:0px; padding-right:0px; max-width:1000px; min-width:800px; line-height:48px;">
+        
+         <div style="border:0px solid blue;">
+         
+                <div style="float:left;height:40px; width:80%;">
+       <div class="breadcrumb" style="margin-left:20px; margin-top:0px; color:#ffffff;"><span class="linkBreadcrumb"><a href="/">Home</a> / <a href="/download">Download</a> / NoMachine for Linux - i386</span></div> 
+    </div>
+   </div>
+     </div>
+ </div>
+   </div>
+     
+
+
+
+
+<div id="page-internal1" style="border:0px solid red; margin: 0 auto;" width="100%" class="mmwmax">
+
+  
+    
+
+  <div id="bodycenter" style="position: relative; top: 0px; left: 0px; z-index: 100; border: 0px solid red; padding-bottom:0px;">
+ 
+  <div id="page-internal" style="border:0px solid green; text-align:left;">
+    <div id="container-internal" class="clear-block" style="border:0px solid yellow; ">
+     <div id="header" style="border:0px solid red;">
+      <div id="logo-floater">
+             </div>
+     </div>   
+               
+     
+
+     <div id="centerx">
+      <div id="squeeze">
+       <div class="right-corner">
+        <div class="left-corner" >
+        
+          
+                                                                
+         <div class="clear-block" >
+                    
+
+
+  
+  
+ <!--<tr id="TopTableDownload">
+  <td colspan="3"></td>
+ </tr>-->
+ 
+ <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px; min-width:780px; max-width:980px;">
+ <tr>
+  <td valign="top">  
+   <table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding:10px;">
+    <tr>
+     <td valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+ <tr height="15px">
+  <td colspan="2">&nbsp;</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <table cellpadding="3" cellspacing="0" width="100%" border="0" style="padding-top:20px; border-right: 0px solid #D8D8D8;border-left: 0px solid #D8D8D8;">
+     
+    <tr height="60px;">    
+     <td colspan="3"  style="vertical-align:top;">
+      <h1><span id="titleH2" style="vertical-align:middle;">
+                NoMachine for Linux - i386      </span></h1>
+     </td>
+    </tr>
+    <tr>
+    
+     <td valign="top"  rowspan="11" style="padding-right:10px;">
+      <div class="">
+       <!--<img style="max-width:100px; max-height:100px;" src="sites/all/themes/frontend/images/products/nomachine-linux" />-->
+       <img style="" src="/sites/all/themes/frontend/images/download/download_preview/nomachine-linux.png" />
+      </div>
+     </td>
+    
+              <td align="left" style="color:#000000;">Version:</td>
+              <td align="left" width="100%" style="padding-left:10px;">4.2.22_1</td>
+           </tr>
+           <tr>
+              <td align="left" nowrap style="color:#000000;">Package size:</td>
+              <td align="left" width="100%" style="padding-left:10px;">21.4 MB</td>
+           </tr>
+           <tr>
+              <td align="left" nowrap  style="color:#000000;">Package type:</td>
+              <td align="left" width="100%" style="padding-left:10px;">DEB</td>
+           </tr>
+                      <!--<tr>
+              <td align="left"  style="color:#000000;">Requirements:</td>
+              <td align="left" width="100%" style="padding-left:10px;">
+              None              </td>
+           </tr>-->
+            <!--
+           <tr>
+              <td align="left" nowrap  style="color:#000000;">MD5 signature:</td>
+              <td align="left" width="100%" style="padding-left:10px;">66575c085951046eb49d54639d9d31ca</td>
+           </tr>
+-->
+                      <tr>
+              <td align="left" nowrap valign="top"  style="color:#000000;">For:</td>
+              <td align="left" width="100%" valign="top" style="padding-left:10px;">Debian GNU Linux 4.0 Etch/5.0 Lenny/6.0 Squeeze/7.0 Wheezy, Ubuntu 8.04 Hardy Heron/8.10 Intrepid Ibex/9.04 Jaunty, Jackalope/9.10 Karmic Koala/10.4 Lucid Lynx/10.10 Maverick Meerkat/11.04 Natty Narwhal/11.10 Oneiric Ocelot/12.04 Precise Pangolin<br /></td>
+           </tr>
+              
+           <!--
+           <tr height="10"><td colspan="2" style="border-bottom:1px solid #e6e6e6;"></td></tr>
+           <tr>
+             <td colspan="2">   
+              <table border="0" cellpadding="10" cellspacing="0">
+              <tr>
+               <td valign="top"><img width="30" height="40" border="0" alt="" src="/sites/all/themes/frontend/images/shared/info.png" /></td>
+               <td valign="top" align="left" style="font-size:12px">
+                 Some browsers do not recognize DEB file as installation packages.
+                 If this is the case of your browser, you can safely download the file
+                 by right clicking on the "Download" button and selecting option "Save link as"
+               </td>
+              </tr>
+              </table> 
+             </td>
+           </tr>-->
+             
+           
+                     <tr height="10"><td colspan="2" style="border-bottom:1px solid #e6e6e6;"></td></tr>
+           <tr>
+             <td colspan="2">   
+              <table border="0" cellpadding="10" cellspacing="0">
+              <tr>
+               <td valign="top"><img width="30" height="40" border="0" alt="" src="/sites/all/themes/frontend/images/shared/info.png" /></td>
+               <td valign="top" align="left" style="font-size:12px">
+NoMachine NX Free Edition 3 users read here:<br><br>
+The free NoMachine 4 is a new product aimed at a different use case. 
+While NoMachine NX Free Edition 3 offered a free terminal server with 
+virtual desktops created on demand, the free NoMachine 4 is designed 
+to work the same across Windows, Mac and Linux and give users access 
+to the physical desktop of the remote computer. If you need to create 
+virtual desktops on demand, want to limit the logins to SSH, or are 
+using NIS, Kerberos or other enterprise server functionalities, you 
+need one of the NoMachine Enterprise server products you can download 
+<font class="linkGeneral"><a href="https://www.nomachine.com/download-enterprise">here</a></font>.
+<br><br>
+Note that you can use NoMachine 4 as a client of an Enterprise server, 
+or you can download the free Enterprise client 
+ <font class="linkGeneral"><a href="https://www.nomachine.com/download-enterprise#NoMachine-Enterprise-Client">here</a></font>.
+               </td>
+              </tr>
+              </table> 
+             </td>
+           </tr>
+           
+          
+          
+           
+          
+           <tr height="10px"><td>&nbsp;</td></tr>
+           <tr>
+            <td colspan="2">
+             <table width="100%" border="0" style="border-top:1px solid #e6e6e6; max-width:840; min-width:640;">
+             <tr>
+            <td colspan="2">
+             <table width="100%" border="0" >
+              <tr>
+               <td width="50%"></td>
+               <td valign="top">
+			                          <div align="center"><div align="center" class="classButton" style="margin-bottom:0px; margin-top:20px;"><a href="javascript:void(0)" onclick="location.href='http://web04.nomachine.com/download/4.2/Linux/nomachine_4.2.22_1_i386.deb'">Download</a></div></div>               </td>
+               <td width="50%"></td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+           </table>
+            </td>
+           </tr>
+           
+           
+         <tr>
+           <td colspan="2">
+            <table style="padding-top:20px; padding-left:0px;" border="0" cellpadding="0" cellspacing="0" width="100%">   
+    
+    <tr>
+      <td align="right" style=""> 
+     
+        <!--CONTENUTO-->
+       
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-top:20px;">
+ <tr>
+  <td valign="top"> 
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-bottom:5px;">
+ <tr>
+  <td valign="top">   
+   <table border="0" cellpadding="0" cellspacing="0" width="100%" style="">
+    <tr>       
+        <td style="background-color:#ffba00;">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+           <tr>
+            <td width="50px"  valign="middle"  align="center">
+             <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+               <td valign="middle" align="center">
+                <img  width="40px" height="40px" src="/sites/all/themes/frontend/images/download/info.png">
+               </td>
+              </tr>
+             </table>
+            </td>         
+            <td>
+             <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+               <td width="10px"  valign="top" align="left">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td valign="top" style="">
+                   <img  width="10px" height="58px" src="/sites/all/themes/frontend/images/store/store-arrow-1.png">
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="5px" align="left">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td valign="top" style="">
+                   <img  width="5px" height="58px" src="/sites/all/themes/frontend/images/store/store-arrow-2.png">
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td  height="58px">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td height="58px" width="50px"   style="" valign="middle">
+                   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                     <td valign="middle" width="100%"><h1><span id="titleH4" style="margin-left:15px; color:white; padding-top:10px;">
+                     Downloading and Installing</span></h1></td>
+                     </td>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>               
+              </tr> 
+              
+             </table>
+            </td>
+           </tr>          
+          </table>
+         
+        </td>
+       </tr>
+       <tr>
+        <td width="100%" class="boxHowNoMachine-0"> 
+         <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-top:5px;">
+          <tr>
+           <td width="100%" class="boxHowNoMachine-0"> 
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:5px; border:1px solid #e6e6e6;">
+             <tr>
+              <td width="100%" > 
+               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:5px;">
+          <tr>
+            <td style="padding-top:0px;">
+     	 <div class="listItemVersion" style="list-style-image: none;">
+      <b>DEB version</b>
+      <ul>
+       <li style="font-size:12px;">
+        <font style="font-weight:normal;">Click on Download and save the DEB file.</font>
+       </li>
+       <li style="font-size:12px;">
+        <font style="font-weight:normal;">
+       Install the package by using the graphical package manager provided by your Linux distribution
+   or from command line by running: <br>
+            <br> &nbsp;&nbsp;$ sudo dpkg -i nomachine_4.2.22_1_i386.deb<br>
+        </font>
+       </li>
+       
+      </ul>
+      </div>
+	     
+      
+      <div style="margin-left:0px; padding-bottom:10px; padding-right:20px;">
+       If you don't have the sudo utility installed, log on as superuser ("root") and run the command 
+       without sudo.
+      </div>
+     
+           <b>
+      <div style="padding-bottom:10px;">
+      <font style="font-size:12px; ">NOTE:</b> 
+      click <font class="linkGeneral"><a href="/DT09K00056" style="font-size:12px;">here</a></font> 
+      for detailed instructions on how to install the NoMachine packages.
+     
+      </font>
+      </div>
+      
+     </td>
+          </tr>
+         </table>
+        </td>
+             </tr>
+            </table>
+           </td>
+          </tr> 
+         </table>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+   
+   <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-bottom:5px; padding-top:10px;">
+    <tr>
+     <td valign="top">   
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="">
+       <tr>       
+        <td style="background-color:#ffba00;">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+           <tr>
+            <td width="50px"  valign="middle"  align="center">
+             <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+               <td valign="middle" align="center">
+                <img  width="40px" height="40px" src="/sites/all/themes/frontend/images/download/info.png">
+               </td>
+              </tr>
+             </table>
+            </td>         
+            <td>
+             <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+               <td width="10px"  valign="top" align="left">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td valign="top" style="">
+                   <img  width="10px" height="58px" src="/sites/all/themes/frontend/images/store/store-arrow-1.png">
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="5px" align="left">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td valign="top" style="">
+                   <img  width="5px" height="58px" src="/sites/all/themes/frontend/images/store/store-arrow-2.png">
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td  height="58px">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td height="58px" width="50px"   style="" valign="middle">
+                   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                     <td valign="middle" width="100%"><h1><span id="titleH4" style="margin-left:15px; color:white; padding-top:10px;">
+                     Recommended System Requirements</span></h1></td>
+                     </td>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>               
+              </tr> 
+              
+             </table>
+            </td>
+           </tr>          
+          </table>
+         
+        </td>
+       </tr>
+       <tr>
+        <td width="100%" class="boxHowNoMachine-0"> 
+         <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-top:5px;">
+          <tr>
+           <td width="100%" class="boxHowNoMachine-0"> 
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:5px; border:1px solid #e6e6e6;">
+             <tr>
+              <td width="100%" > 
+               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:5px;">
+                <tr>
+                 <td>
+         The software is designed to work on computers with minimal HW requirements.
+Although the software may work with inferior CPUs or reduced RAM, for best 
+performance NoMachine recommends you match the listed requirements.
+</td>
+</tr>
+       <tr>
+     <td style="padding-top:10px;">
+     <b>Hardware</b>
+      <div class="listItemSupport" style="padding-left:20px;">      
+      <ul>                                                                                          
+       <li style="font-size:12px;">                                                                 
+        Intel Core2 Duo, AMD Athlon Dual-Core or equivalent                                         
+       </li>                                                                                        
+       <li style="font-size:12px;">                                                                 
+        1 GB RAM                                                                                    
+       </li>                                                                                        
+       <li style="font-size:12px;">                                                                 
+        74 MB free disk space                                                                      
+       </li>                                                                                        
+       <li style="font-size:12px;">                                                                 
+        Network connection (either a LAN, or Internet link: broadband, cable, DSL, etc.) 
+       </li>
+      </ul>
+      </div>
+     </td>
+          </tr>
+         </table>
+        </td>
+             </tr>
+            </table>
+           </td>
+          </tr> 
+         </table>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+
+
+
+
+
+
+
+ </td>
+ </tr>
+</table>
+
+        
+          <!--CONTENUTO-->
+          </td>
+        </tr>
+        
+   
+   </table> 
+           </td>
+           </tr>
+           
+           
+        </table>
+
+        
+      </td> 
+    </tr>
+        
+ </table>   
+    
+    </td>
+    </tr>
+  
+</table>
+</table>   
+    
+    </td>
+    </tr>
+  
+</table>
+
+
+
+	  
+<!--
+<div>
+ <table style="padding-bottom:20px; padding-top:10px;" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+   <td width="100%" valign="top">
+    <div class="tableBlockAboutUs">
+     <table cellSpacing="0" cellPadding="0" border="0" width="100%" style="padding:10px;">
+      <tr height="50px">
+       <td colspan="2" style=" padding-left:5px;"><h1><span id="titleH4">
+        What the package includes</span></h1>
+       </td>
+      </tr>
+      <tr>
+       <td style="color:#494949;">
+        The software package you download for your platform includes all the necessary components to enable access once installed on the remote host. 
+        Each package also provides a complete set of add-ons: NoMachine Server Manager, NoMachine Web Player for browser-based access, NoMachine Service, 
+        and NoMachine Player (also available as a separate download for various OSes).
+       </td>
+      </tr>
+     </table>
+    </div>
+   </td>
+  </tr>
+ </table>
+</div>
+-->
+
+  <!-- Start Downloading and Installing  
+  <div id="endMiddlePage"> -----------------------------moved over
+  <div>
+  <table style="padding-top:0px; padding-left:0px;" border="0" cellpadding="0" cellspacing="0" width="100%">   
+    
+    <tr>
+      <td align="right" style="padding-right:0px"> 
+     
+         
+       
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-top:20px;">
+ <tr>
+  <td valign="top"> 
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-bottom:5px;">
+ <tr>
+  <td valign="top">   
+   <table border="0" cellpadding="0" cellspacing="0" width="100%" style="">
+    <tr>       
+        <td style="background-color:#ffba00;">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+           <tr>
+            <td width="50px"  valign="middle"  align="center">
+             <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+               <td valign="middle" align="center">
+                <img  width="40px" height="40px" src="/sites/all/themes/frontend/images/download/info.png">
+               </td>
+              </tr>
+             </table>
+            </td>         
+            <td>
+             <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+               <td width="10px"  valign="top" align="left">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td valign="top" style="">
+                   <img  width="10px" height="58px" src="/sites/all/themes/frontend/images/store/store-arrow-1.png">
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="5px" align="left">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td valign="top" style="">
+                   <img  width="5px" height="58px" src="/sites/all/themes/frontend/images/store/store-arrow-2.png">
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td  height="58px">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td height="58px" width="50px"   style="" valign="middle">
+                   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                     <td valign="middle" width="100%"><h1><span id="titleH4" style="margin-left:15px; color:white; padding-top:10px;">
+                     Downloading and Installing</span></h1></td>
+                     </td>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>               
+              </tr> 
+              
+             </table>
+            </td>
+           </tr>          
+          </table>
+         
+        </td>
+       </tr>
+       <tr>
+        <td width="100%" class="boxHowNoMachine-0"> 
+         <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-top:5px;">
+          <tr>
+           <td width="100%" class="boxHowNoMachine-0"> 
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:5px; border:1px solid #e6e6e6;">
+             <tr>
+              <td width="100%" > 
+               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:5px;">
+          <tr>
+            <td style="padding-top:0px;">
+     	 <div class="listItemVersion" style="list-style-image: none;">
+      <b>DEB version</b>
+      <ul>
+       <li style="font-size:12px;">
+        <font style="font-weight:normal;">Click on Download and save the DEB file.</font>
+       </li>
+       <li style="font-size:12px;">
+        <font style="font-weight:normal;">
+       Install the package by using the graphical package manager provided by your Linux distribution
+   or from command line by running: <br>
+            <br> &nbsp;&nbsp;$ sudo dpkg -i nomachine_4.2.22_1_i386.deb<br>
+        </font>
+       </li>
+       
+      </ul>
+      </div>
+	     
+      
+      <div style="margin-left:0px; padding-bottom:10px; padding-right:20px;">
+       If you don't have the sudo utility installed, log on as superuser ("root") and run the command 
+       without sudo.
+      </div>
+     
+           <b>
+      <div style="padding-bottom:10px;">
+      <font style="font-size:12px; ">NOTE:</b> 
+      click <font class="linkGeneral"><a href="/DT09K00056" style="font-size:12px;">here</a></font> 
+      for detailed instructions on how to install the NoMachine packages.
+     
+      </font>
+      </div>
+      
+     </td>
+          </tr>
+         </table>
+        </td>
+             </tr>
+            </table>
+           </td>
+          </tr> 
+         </table>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+   
+   <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-bottom:5px; padding-top:10px;">
+    <tr>
+     <td valign="top">   
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="">
+       <tr>       
+        <td style="background-color:#ffba00;">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+           <tr>
+            <td width="50px"  valign="middle"  align="center">
+             <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+               <td valign="middle" align="center">
+                <img  width="40px" height="40px" src="/sites/all/themes/frontend/images/download/info.png">
+               </td>
+              </tr>
+             </table>
+            </td>         
+            <td>
+             <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+               <td width="10px"  valign="top" align="left">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td valign="top" style="">
+                   <img  width="10px" height="58px" src="/sites/all/themes/frontend/images/store/store-arrow-1.png">
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="5px" align="left">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td valign="top" style="">
+                   <img  width="5px" height="58px" src="/sites/all/themes/frontend/images/store/store-arrow-2.png">
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td  height="58px">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                  <td height="58px" width="50px"   style="" valign="middle">
+                   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                     <td valign="middle" width="100%"><h1><span id="titleH4" style="margin-left:15px; color:white; padding-top:10px;">
+                     Recommended System Requirements</span></h1></td>
+                     </td>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>               
+              </tr> 
+              
+             </table>
+            </td>
+           </tr>          
+          </table>
+         
+        </td>
+       </tr>
+       <tr>
+        <td width="100%" class="boxHowNoMachine-0"> 
+         <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding-top:5px;">
+          <tr>
+           <td width="100%" class="boxHowNoMachine-0"> 
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:5px; border:1px solid #e6e6e6;">
+             <tr>
+              <td width="100%" > 
+               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:5px;">
+                <tr>
+                 <td>
+         The software is designed to work on computers with minimal HW requirements.
+Although the software may work with inferior CPUs or reduced RAM, for best 
+performance NoMachine recommends you match the listed requirements.
+</td>
+</tr>
+       <tr>
+     <td style="padding-top:10px;">
+     <b>Hardware</b>
+      <div class="listItemSupport" style="padding-left:20px;">      
+      <ul>                                                                                          
+       <li style="font-size:12px;">                                                                 
+        Intel Core2 Duo, AMD Athlon Dual-Core or equivalent                                         
+       </li>                                                                                        
+       <li style="font-size:12px;">                                                                 
+        1 GB RAM                                                                                    
+       </li>                                                                                        
+       <li style="font-size:12px;">                                                                 
+        74 MB free disk space                                                                      
+       </li>                                                                                        
+       <li style="font-size:12px;">                                                                 
+        Network connection (either a LAN, or Internet link: broadband, cable, DSL, etc.) 
+       </li>
+      </ul>
+      </div>
+     </td>
+          </tr>
+         </table>
+        </td>
+             </tr>
+            </table>
+           </td>
+          </tr> 
+         </table>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+
+
+
+
+
+
+
+ </td>
+ </tr>
+</table>
+
+        
+         
+          </td>
+        </tr>
+        
+   
+   </table> 
+   </div>-->
+
+<!-- box player -->
+<script>
+    // Linux
+    function addClasslinux(nid){
+      $("#linux_"+nid).addClass("linuxBlink");
+    }
+    
+    function addClassLinux(nid){
+      document.getElementById('linkTitle_linux'+nid).style.color='#75a400';
+    }
+    
+    function removeClassLinux(nid){
+      document.getElementById('linkTitle_linux'+nid).style.color='';
+    }
+    
+    function addLinuxTitle(nid,i){
+      document.getElementById('linuxtitle'+nid+i).style.color='#75a400';
+      //document.getElementById('OverLinux'+nid).style.backgroundImage=none;      
+    }
+    
+    
+    function removeLinuxTitle(nid,i){
+      document.getElementById('linuxtitle'+nid+i).style.color='';
+    }
+
+    function removeClasslinux(nid)
+    {   
+      if( $("#hideTrLinux"+nid).is(":visible") ) 
+      {
+        // element is visible xxxx
+        $("#linux_"+nid).addClass("linuxBlink");
+      }
+      else
+      {      
+       $("#linux_"+nid).removeClass("linuxBlink");
+      }
+    }
+    // End Linux
+    
+    // Windows
+    function addClasswindows(nid){
+      $("#windows_"+nid).addClass("windowsBlink");
+    }
+    
+    function removeClasswindows(nid){
+      if( $("#hideTrWindows"+nid).is(":visible") ) 
+      {
+        // element is visible xxxx
+        $("#windows_"+nid).addClass("windowsBlink");
+        document.getElementById('apex_download_win_'+nid).style.color='#75a400';
+      }
+      else
+      {      
+        $("#windows_"+nid).removeClass("windowsBlink");
+        document.getElementById('apex_download_win_'+nid).style.color='';
+      }
+    }
+    
+    function addClassWindows(nid){
+      document.getElementById('linkTitle_windows'+nid).style.color='#75a400';
+    }
+    
+    function removeClassWindows(nid){
+      document.getElementById('linkTitle_windows'+nid).style.color='';
+      
+    }
+    
+    function addWindowsTitle(nid,i){
+      document.getElementById('windowstitle'+nid+i).style.color='#75a400';
+    }
+    
+    function removeWindowsTitle(nid,i){
+      document.getElementById('windowstitle'+nid+i).style.color='';
+    }
+    // End Windows
+    
+    // Mac
+    function addClassmacosx(nid){
+      $("#mac_"+nid).addClass("macBlink");
+    }
+    
+    function removeClassmacosx(nid){
+      if( $("#hideTrMac"+nid).is(":visible") ) 
+      {
+        // element is visible xxxx
+        $("#mac_"+nid).addClass("macBlink");
+        document.getElementById('apex_download_'+nid).style.color='#75a400';
+      }
+      else
+      {      
+        $("#mac_"+nid).removeClass("macBlink");
+        document.getElementById('apex_download_'+nid).style.color='';
+      }
+    }
+    
+    function addClassMacosx(nid){
+      document.getElementById('linkTitle_mac os x'+nid).style.color='#75a400';
+    }
+    
+    function removeClassMacosx(nid){
+      document.getElementById('linkTitle_mac os x'+nid).style.color='';
+    }
+    
+    function addMacTitle(nid,i){
+      document.getElementById('mactitle'+nid+i).style.color='#75a400';
+    }
+    
+    function removeMacTitle(nid,i){
+      document.getElementById('mactitle'+nid+i).style.color='';
+    }
+    // End Mac
+    
+    // Solaris
+    function addClasssolaris(nid){
+      $("#solaris_"+nid).addClass("solarisBlink");
+    }
+    
+    function removeClasssolaris(nid){
+      if( $("#hideTrSolaris"+nid).is(":visible") ) 
+      {
+        // element is visible xxxx
+        $("#solaris_"+nid).addClass("solarisBlink");
+      }
+      else
+      {      
+        $("#solaris_"+nid).removeClass("solarisBlink");
+      }
+    }
+    
+    function addClassSolaris(nid){
+      document.getElementById('linkTitle_solaris'+nid).style.color='#75a400';
+    }
+    
+    function removeClassSolaris(nid){
+      document.getElementById('linkTitle_solaris'+nid).style.color='';
+    }
+    
+    function addSolarisTitle(nid,i){
+      document.getElementById('solaristitle'+nid+i).style.color='#75a400';
+    }
+    
+    function removeSolarisTitle(nid,i){
+      document.getElementById('solaristitle'+nid+i).style.color='';
+    }
+    // End Solaris
+    
+    // All Platform
+    function addClassallplatforms(nid){
+      $("#platform_"+nid).addClass("platformBlink");
+    }
+
+    function removeClassallplatforms(nid){
+      if( $("#hideTrAllPlatforms"+nid).is(":visible") ) 
+      {
+        // element is visible xxxx
+        $("#platform_"+nid).addClass("platformBlink");
+      }
+      else
+      {      
+        $("#platform_"+nid).removeClass("platformBlink");
+      }
+      $("#platform_"+nid).removeClass("platformBlink");
+    }
+    
+    function addClassallPlatforms(nid){
+      document.getElementById('linkTitle_all'+nid).style.color='#75a400';
+    }
+    
+    function removeClassallPlatforms(nid){
+      document.getElementById('linkTitle_all'+nid).style.color='';
+    }
+    // End All Platform
+    
+    
+    // Linux
+    $("#hideTrLinux18").hide();
+    
+    $(".clickLinux18").click(function() {
+      //alert("#hideTrLinux"+nid);
+      $("#hideTrLinux18").toggle();
+      if( $("#hideTrLinux18").is(":visible") ) 
+      {
+        // element is visible xxxx
+        //alert("yes");
+        $("#LinuxArrow18").removeClass("listArrowNo");
+        $("#LinuxArrow18").addClass("listArrowYes");
+        //$("#linux_18").addClass("linuxBlink");
+        document.getElementById('LinuxArrowYes18').style.color='#75a400';
+        
+      }
+      else {
+        // element is not visible
+        $("#LinuxArrow18").removeClass("listArrowYes");
+        $("#LinuxArrow18").addClass("listArrowNo");
+        document.getElementById('LinuxArrowYes18').style.color='';
+      } 
+    });
+    // End Linux
+
+    // Windows
+    $("#hideTrWindows18").hide();
+    
+    $(".clickWindows18").click(function() {
+      $("#hideTrWindows18").toggle();
+      if( $("#hideTrWindows18").is(":visible") ) {
+        // element is visible
+        $("#WindowsArrow18").removeClass("listArrowNo");
+        $("#WindowsArrow18").addClass("listArrowYes");
+        document.getElementById('WindowsArrowYes18').style.color='#75a400';
+      }
+      else {
+        // element is not visible
+        $("#WindowsArrow18").removeClass("listArrowYes");
+        $("#WindowsArrow18").addClass("listArrowNo");
+        document.getElementById('WindowsArrowYes18').style.color='';
+      } 
+    });
+    // End Windows
+    
+    // Mac
+    $("#hideTrMac18").hide();
+    
+    $(".clickMac18").click(function() {
+      $("#hideTrMac18").toggle();
+      if( $("#hideTrMac18").is(":visible") ) {
+        // element is visible
+        $("#MacArrow18").removeClass("listArrowNo");
+        $("#MacArrow18").addClass("listArrowYes");
+        document.getElementById('MacArrowYes18').style.color='#75a400';
+      }
+      else {
+        // element is not visible
+        $("#MacArrow18").removeClass("listArrowYes");
+        $("#MacArrow18").addClass("listArrowNo");
+        document.getElementById('MacArrowYes18').style.color='';
+      } 
+    });
+    // End Mac
+    
+    // Solaris
+    $("#hideTrSolaris18").hide();
+    
+    $(".clickSolaris18").click(function() {
+      $("#hideTrSolaris18").toggle();
+      if( $("#hideTrSolaris18").is(":visible") ) {
+        // element is visible
+        $("#SolarisArrow18").removeClass("listArrowNo");
+        $("#SolarisArrow18").addClass("listArrowYes");
+        document.getElementById('SolarisArrowYes18').style.color='#75a400';
+      }
+      else {
+        // element is not visible
+        $("#SolarisArrow18").removeClass("listArrowYes");
+        $("#SolarisArrow18").addClass("listArrowNo");
+        document.getElementById('SolarisArrowYes18').style.color='';
+      } 
+    });
+    // End Solaris
+    
+    // All Platform
+    $("#hideTrAllPlatform18").hide();
+    
+    $(".clickAllPlatform18").click(function() {
+      $("#hideTrAllPlatform18").toggle();
+      if( $("#hideTrAllPlatform18").is(":visible") ) {
+        // element is visible
+        $("#AllPlatformArrow18").removeClass("listArrowNo");
+        $("#AllPlatformArrow18").addClass("listArrowYes");
+        document.getElementById('AllPlatformArrowYes18').style.color='#75a400';
+      }
+      else {
+        // element is not visible
+        $("#AllPlatformArrow18").removeClass("listArrowYes");
+        $("#AllPlatformArrow18").addClass("listArrowNo");
+        document.getElementById('AllPlatformArrowYes18').style.color='';
+      } 
+    });
+    // End All Platform
+  </script>
+  <!-- end box player -->
+                   </div>
+                   
+        </div>
+       </div>
+      </div>
+     </div>
+
+     
+    </div>
+   </div>
+  </div>
+ 
+</div>
+
+
+   
+
+      
+<!-- / Body InternalPage -->
+
+
+   <div id="HomeFooter" style="border:0px solid green; ">
+  <div id="sub_subFooter" style="border:0px solid red; padding-top:40px;">
+  <table border="0" cellSpacing="0" cellPadding="0" width="100%" >
+   <tr>
+    <td width="149px" valign="top">
+     <table border="0" cellSpacing="0" cellPadding="0" width="100%" style="margin-left:20px;">
+      <tr height="20px"><td colspan="3" class="latotext" align="left" valign="top">Follow Us</td></tr>
+      <tr>
+       <td width="33px">
+        <a href="/?q=all-press-releases/rss.xml">
+         <img  border="0" alt="" src="/sites/all/themes/frontend/images/shared/rss-icon.png" width="29" height="30">
+        </a>
+       </td>
+       <td width="33px">
+        <a href="https://www.facebook.com/pages/NoMachine-NX/303229286367289">
+         <img  border="0" alt="" src="/sites/all/themes/frontend/images/shared/facebook-icon.png" width="29" height="30">
+        </a>
+       </td>
+       <td align="left">
+        <a href="https://twitter.com/#!/NXFollowers">
+         <img  border="0" alt="" src="/sites/all/themes/frontend/images/shared/twitter-icon.png" width="29" height="30">
+        </a>
+       </td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+      <!--<tr>
+       <td colspan="3">
+        <table cellSpacing="0" cellPadding="0" border="0" class="submenu-internal-command" style="letter-spacing: 1px;padding-right: 8px;font-family: Arial; font-size: 10px;">
+         <tr>
+          <td style="padding-right:5px"><img src="sites/all/themes/frontend/images/shared/user-login-small.png"</td>
+          <td  class="login_new">
+           <a class="lightboxLogin" href="login"><strong>LOGIN</strong></a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>-->
+      
+  
+
+     </table>
+    </td>
+    <td width="119px" valign="top">
+     <table border="0" cellSpacing="0" cellPadding="0" width="100%" >
+      <tr height="20px"><td class="latotext" valign="top">Home</td></tr>
+      <tr><td class="latosubtext"><a href="/download" class="link5">Download</a></td></tr>
+      <tr><td class="latosubtext"><a href="/enterprise" class="link5">Enterprise</a></td></tr>
+      <tr><td class="latosubtext"><a href="/support" class="link5">Support</a></td></tr>
+      <tr><td class="latosubtext"><a href="/partners" class="link5">Partners</a></td></tr>
+      
+     </table>
+    </td>
+    <td width="179px" valign="top">
+     <table border="0" cellSpacing="0" cellPadding="0" width="100%" >
+      <tr height="20px"><td class="latotext" valign="top">Learn more</td></tr>
+      <tr><td class="latosubtext"><a href="/feature_comparison" class="link5">Feature comparison</a></td></tr>
+      <tr><td class="latosubtext"><a href="/buyonline" class="link5">Price & availability</a></td></tr>
+      <tr><td class="latosubtext"><a href="/articles" class="link5">Article & FAQs</a></td></tr>
+      <!--<tr><td class="latosubtext"><a href="/all-news-from-the-web" class="link5">News from the Web</a></td></tr>-->
+      <tr><td class="latosubtext"><a href="/softwareupdates" class="link5">Software updates</a></td></tr>
+     </table>
+    </td>
+    <td width="149px" valign="top">
+     <table border="0" cellSpacing="0" cellPadding="0" width="100%" >
+      <tr height="20px"><td class="latotext" valign="top">Resources</td></tr>
+      <tr><td class="latosubtext"><a href="/forums" class="link5">Forums</a></td></tr>      
+      <tr><td class="latosubtext"><a href="/documents" class="link5">Installation guides</a></td></tr>
+      <tr><td class="latosubtext"><a href="/featurerequests" class="link5">Feature requests</a></td></tr>
+      <tr><td class="latosubtext"><a href="/troublereports" class="link5">Trouble reports</a></td></tr>
+      
+     </table>
+    </td>
+    <td width="149px" valign="top">
+     <table border="0" cellSpacing="0" cellPadding="0" width="100%" style="border:0px solid red;">
+     <tr height="20px"><td class="latotext" valign="top">Company</td></tr>
+     <tr><td class="latosubtext"><a href="/about-us" class="link5">About us</a></td></tr>
+     <tr><td class="latosubtext"><a href="/contact-request" class="link5">Contact us</a></td></tr>
+      <tr><td class="latosubtext"><a href="/contact-request&p=1" class="link5">Become a partner</a></td></tr>
+      <tr><td class="latosubtext"><a href="/news" class="link5">News</a></td></tr>      
+     </table>
+    </td>
+   </tr>
+  </table>
+ </div>
+ <div id="sub_Footer" style="border:0px solid red;">
+  <table border="0" cellSpacing="0" cellPadding="0" width="100%" style="padding-top:35px;" >
+   <tr>
+    <td width="149px" valign="middle" align="center">Copyright 2002-2014, NoMachine S.&agrave; r.l. - VAT LU25935711
+    </td>
+   </tr>
+  </table>
+ </div>
+ 
+ </div>
+</div>
+</div>
+
+
+     
+<!-- / Layout -->
+
+ 
+</div>
+</body>
+</html>

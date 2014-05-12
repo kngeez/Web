@@ -1,0 +1,53 @@
+while ($row = mysqli_fetch_array($result)) {
+  if ($rowCount % 2) {
+    $oddClass = "<tr class=\"odd\">";
+  } else {
+    $oddClass = "<tr>";
+  }
+
+  $rowCount += 1;
+?>
+  <?= $oddClass?>
+    <td>Blah<td>
+
+<!------------------------------------------------------>
+while ($row = mysqli_fetch_array($result)) {
+  if ($rowCount % 2) {
+    $oddClass = "class=\"odd\"";
+  } else {
+    $oddClass = "";
+  }
+
+  $rowCount += 1;
+?>
+  <tr <?= $oddClass?>>
+    <td>Blah<td>
+
+
+<!------------------------------------------------------>
+while ($row = mysqli_fetch_array($result)) {
+  if ($rowCount % 2) {
+    echo "<tr class=\"odd\">";
+  } else {
+    echo "<tr>";
+  }
+
+  $rowCount += 1;
+?>
+    <td>Blah<td>
+
+<!------------------------------------------------------>
+while ($row = mysqli_fetch_array($result)) {
+  echo "<tr";
+  if ($rowCount % 2) {
+    echo " class=\"odd\"";
+  }
+  echo ">";
+
+  $rowCount += 1;
+?>
+    <td>Blah<td>
+
+<?php
+ }
+?>

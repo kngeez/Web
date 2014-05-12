@@ -38,11 +38,14 @@
        "GROUP BY actor";
      $resultactor = mysqli_query($link, $sqlactor);
 
-     while ($rowgenre = mysqli_fetch_array($resultactor)) {
+     while ($rowactor = mysqli_fetch_array($resultactor)) {
        array_push($movieActors, $rowactor['actor']);
      }
      return $movieActors;
    }
+
+
+
 
 
 
@@ -83,34 +86,19 @@ while ($row = mysqli_fetch_array($result)) {
 
   $movie = new Movie($row['movieid'], $row['title'], $row['director']);
   $movie->setGenres(getMovieGenres($link, $movie));
-  
+  $movie->setActors(getMovieActors($link, $movie));
 ?>
   <tr <?= $oddClass ?>>
     <td><?= $movie->getMovieId() ?></td>
      <td><?= $movie->getTitle() ?></td>
      <td><?= $movie->getDirector() ?></td>
      <td><?= join(", ", $movie->getGenres()); ?></td>
+     <td><?= join(", ", $movie->getActors()); ?></td>
 
-<?php
-  $sqlactor = "SELECT actor FROM movieactors JOIN movies ON movieactors.movieid = movies.movieid JOIN actors ON movieactors.actorid = actors.actorid AND movieactors.movieid = '" . $movie->getMovieId() . "' GROUP BY actor";
-  $resultactor = mysqli_query($link, $sqlactor);
-  echo "<td>";
-  $rowzero = mysqli_fetch_array($resultactor);
-  echo $rowzero['actor'];
-  while ($rowactor = mysqli_fetch_array($resultactor)) {
-    echo"; " . $rowactor['actor'];
-  }
-  echo "</td>";
-  echo "</tr>";
+<?php		
 }
-
-
-echo "</table>";
-echo "<br>";
-
-
 ?>
 
-
+</table>
 </body>
 </html>
